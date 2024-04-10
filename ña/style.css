@@ -1,7 +1,24 @@
+
 body {
-    background-color: #29004b;
-    color: #FFFFFF;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: #29d04b;
+  background-image: url('city.png'); 
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #8070d0;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 header, footer {
     text-align: center;
