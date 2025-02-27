@@ -7,20 +7,39 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-	<header>
-        <h1>projects!<sub></sub></h1>
-		<nav>
-            <a href="/ña/">home</a> |
-            <a href="/ña/projects/">projects</a> |
-			<a href="/ña/art/">art</a> | 
-            <a href="/ña/contact/">contact</a>
-		</nav>
-	</header>
-	<div id="content">
-        <p>
-            i will be filling this out with various things that i've worked on!
-        </p>
-		
-	</div>
+    <div class="container">
+        <header>
+            <h1>projects!<sub></sub></h1>
+            <nav>
+                <a href="/ña/">home</a> |
+                <a href="/ña/projects/">projects</a> |
+                <a href="/ña/art/">art</a> | 
+                <a href="/ña/contact/">contact</a>
+            </nav>
+        </header>
+        <div id="content">
+            <p>
+                For the sake of the Stanford Honor Code, I can't share the code for most of my projects, but I can talk about them!
+                Here I'll list some of what I can share from my open source contributions and personal projects.
+            </p>
+            <p>
+                My favorite project I built in undergrad was a chatbot in <a href="https://web.stanford.edu/class/cs124/" target="_blank">CS124</a> (Intro to Computational NLP) which I currently teach as a Course Assistant.
+                This bot would take in a user's natural language input on what movies they like, match those to an imdb database, use collaborative filtering to recommend movies,
+                use sentiment analysis to determine if they liked the recommendations, and then continually update the recommendations based on user feedback.
+                I built this in Python using the <a href="https://www.nltk.org/" target="_blank">NLTK</a> and <a href="https://scikit-learn.org/stable/" target="_blank">scikit-learn</a> libraries, and implemented the collaborative filtering from scratch.
+                Code unavailable, sorry :(
+            </p>
+            <p>
+                I built and published the MacOS native version for <a href="https://github.com/TeamWheelWizard/WheelWizard" target="_blank">WheelWizard</a>, a widely used tool to play Mario Kart Wii online.
+                This automatically keeps your <a href="https://wiki.tockdom.com/wiki/Retro_Rewind" target="_blank">Retro Rewind</a> mod up to date, allows you to see online friends, and has many other features.
+                Retro Rewind adds around 200 custom tracks to the game, and before this tool existed on Mac you would have to manually patch your game every time a new track was added.
+                All you need is a copy of Mario Kart Wii, a controller (including Wii Remotes!), and the Dolphin Emulator.
+
+            </p>
+        </div>
+        <footer>
+            <!-- Add footer if needed -->
+        </footer>
+    </div>
 </body>
 </html>
