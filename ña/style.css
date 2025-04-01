@@ -16,7 +16,7 @@ body {
   width: 80%;
   max-width: 800px;
   margin: 0 auto;
-  background-color: #7465c1;
+  background-color: rgba(116, 101, 193, 0.9);
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
