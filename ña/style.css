@@ -1,5 +1,5 @@
 body {
-  background-color: #29d04b;
+  background-color: #6948a5;
   background-image: url('city.png'); 
   color: #FFFFFF;
   font-family: 'Courier New', Courier, monospace;
@@ -16,7 +16,7 @@ body {
   width: 80%;
   max-width: 800px;
   margin: 0 auto;
-  background-color: #8070d0;
+  background-color: #7465c1;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -36,7 +36,14 @@ nav a {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
 }
- 
+
+#buttons {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+} 
+
 #content img {
     max-width: 80%;
     height: auto;
